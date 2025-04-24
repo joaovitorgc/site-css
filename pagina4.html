@@ -3,9 +3,135 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <title>Atividade-página4</title>
+    <title>Atividade - Página 4</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(2, 22, 235, 0.77);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nome {
+            color: white;
+        }
+
+        nav {
+            background-color: #1a1a1a;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #333;
+        }
+
+        main {
+            padding: 30px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #0216ebc5;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .imagem-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .imagem-container img {
+            width: 45%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .imagem-container img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+
 </head>
 
+<body>
+    
+    <header>
+        <h1 class="nome">Lugar pra ir</h1>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/Aluno/Desktop/site-css/pagina1.html">Apresentação Pessoal</a></li>
+            <li><a href="file:///C:/Users/Aluno/Desktop/site-css/pagina2.html">Hobbies</a></li>
+            <li><a href="file:///C:/Users/Aluno/Desktop/site-css/pagina3.html">Série Favorita</a></li>
+            <li><a href="file:///C:/Users/Aluno/Desktop/site-css/pagina4.html">Lugar pra ir</a></li>
+            <li><a href="file:///C:/Users/Aluno/Desktop/site-css/pagina5.html">Flamengo</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Milão</h1>
+        <p>O lugar que eu mais quero ir é para Milão, na Itália, principalmente por causa do San Siro.</p>
+
+        <div class="imagem-container">
+            <div>
+                <img src="imagens/milao.jpg" alt="Cidade de Milão">
+                <p>Vista de Milão</p>
+            </div>
+            <div>
+                <img src="imagens/sansiro.jpg" alt="Estádio San Siro">
+                <p>Estádio San Siro</p>
+            </div>
+        </div>
+    </main>
+
+</body>
 
 </html>
